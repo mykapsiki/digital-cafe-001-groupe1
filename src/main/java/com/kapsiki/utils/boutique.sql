@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `items` (
   `item_description` varchar(255) NOT NULL,
   `item_price` int(11) NOT NULL,
   `category_id` int(11) NOT NULL,
-  PRIMARY KEY (`id_item`),
+  PRIMARY KEY (`item_id`),
   KEY `category_id` (`category_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `created_at` date NOT NULL,
-  PRIMARY KEY (`id_user`)
+  PRIMARY KEY (`user_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --

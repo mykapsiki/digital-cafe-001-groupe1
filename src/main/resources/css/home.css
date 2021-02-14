@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #5EDA93;
+}
+
+body {
+    font-family: 'segoe UI';
+    padding: 0%;
+}
+
+
+.name{
+    font-weight: 300;
+    font-size: 1.5em;
+    font-family: 'quicksand';
+}
+
+.name span{
+    color: var(--primary-color);
+}
+
+
+.logout-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22262A;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 42px;
+}
+
+.floating-button{
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    background-color: #5EDA93;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 42px;
+    right: 42px;
+}

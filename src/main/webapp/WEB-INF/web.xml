@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>loading</servlet-name>
+  	<display-name>loading</display-name>
+  	<description></description>
+  	<servlet-class>com.kapsiki.servlets.loading</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>loading</servlet-name>
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping>
 </web-app>

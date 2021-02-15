@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #5EDA93;
+}
+body{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    background-position: center;
+    background-image: url(../images/launcher.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contain{
+    /*background-color: red;*/
+    background-color: silver;
+    height: 100%;
+}
+
+.name{
+    font-weight: 300;
+    font-size: 1.5em;
+    font-family: 'quicksand';
+}
+
+.name span{
+    color: var(--primary-color);
+}
+
+.accroche{
+    font-family: 'samsung sans';
+    font-size: 2.25em;
+}
+
+.start{
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.join{
+    font-weight: 200;
+    font-family: 'samsung sans';
+    font-size: 2em;
+}
